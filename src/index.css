@@ -2,15 +2,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  color: #FFF;
+  background: crimson;
+  margin-bottom: 1rem;
+}
+
 ul {
   list-style: none;
+}
+
+li {
+  margin-bottom: 0.2rem;
 }
