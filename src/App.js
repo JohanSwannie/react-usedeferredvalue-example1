@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <input
         type="text"
+        autoFocus
         onChange={(event) => setInputData(event.target.value)}
       />
       <ul>
